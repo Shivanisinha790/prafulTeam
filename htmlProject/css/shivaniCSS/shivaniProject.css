@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+}
+
+.heading heading-style{
+background-color: black;
+margin: 10px 20px 30px 40px;
+
+}
+
+.containe{
+    margin-top: 55px;  
+    margin-left: 12%;
+    position: absolute;
+}
+
+.search-box{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.search{
+    width: 600px;
+    border: 0 solid red;
+    border-radius:   20px 0 0  20px ;
+    border-right: none;
+    padding: 25px;
+    height: 20px;
+    outline: none;
+    color: #9dbfaf;
+}
+.search:focus{
+    color: #000;
+    box-shadow: 0 0 5px rgb(79, 61, 236);
+}
+
+.search-btn{
+    width: 75px;
+    border-radius: 0 20px 20px 0;
+    border:  0 solid red;
+    cursor: pointer;
+    background-color: rgb(5, 3, 3);
+    color: white;
+    text-align: center;
+}
+.circle{
+    text-align: center;
+    background-color: rgb(0, 5, 8);
+    border-radius: 100%;
+    /* display: flex; */
+}
+.cart{
+
+margin-bottom: 0; 
+     color: aliceblue;
+      font-size: 30px;
+      cursor: pointer;
+      float: right;
+      position: relative;
+}
+
+/* .navbar-style{
+    box-shadow: 0 35px 10px #efefef;
+    background-color: black;
+} */
